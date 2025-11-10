@@ -1,0 +1,24 @@
+    body {
+    width: 100vw; /* Largura da tela: 100% da viewport width */
+    height: 100vh; /* Altura da tela: 100% da viewport height */
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Evita scroll */
+    background-color: #000000; /* Fundo opcional */
+}
+#letreiro {
+    position: absolute;
+    top: 50%; /* Centraliza verticalmente */
+    left: 0; /* Inicia da esquerda */
+    transform: translateY(-50%); /* Ajusta para centralizar verticalmente */
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    color: #333;
+    white-space: nowrap; /* Impede quebra de linha */
+    padding: 20px; /* Espaço livre em torno do letreiro (padding interno) */
+    margin: 10px; /* Espaço livre adicional (margem externa) */
+    text-align: center; /* Alinhamento do texto: centralizado */
+    background-color: #ffffff; /* Fundo do letreiro para visibilidade */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
